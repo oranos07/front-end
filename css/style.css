@@ -5,8 +5,13 @@
   font-family: montserrat;
   list-style: none;
   text-decoration: none;
-  -webkit-tap-highlight-color: transparent
+
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
 }
+
 body{
   background: url(267.jpg);
   background-position: center ;
@@ -17,6 +22,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 header{
   width: 80%;
@@ -120,6 +126,10 @@ font-weight: 600;
 
 }
 .icons span:focus {
+  outline: none;
+}
+  
+.icons:focus {
   outline: none;
 }
   
@@ -465,7 +475,7 @@ header {
 
 header h4 {
   margin-top: 20px;
-    font-size: 20px;
+  font-size: 20px;
 }
 
 header ul {
