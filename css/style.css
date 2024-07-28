@@ -5,6 +5,7 @@
   font-family: montserrat;
   list-style: none;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent
 }
 body{
   background: url(267.jpg);
